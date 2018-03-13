@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer } from './index'
+import Footer from '../components/Footer/footer'
 import '../styles/styles.css'
 import Link from 'gatsby-link'
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { Footer } from './index'
+import Footer from '../components/Footer/footer'
 import '../styles/styles.css'
 
 // #38c

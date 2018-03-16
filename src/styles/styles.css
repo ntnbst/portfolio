@@ -90,7 +90,7 @@
 .pageStyle > h1 {
   margin: 0 20%;
   line-height: 1.5;
-  font-family: consolas;
+  font-family: consolas, monospace;
 }
 
 /* Rules for the Page Link */

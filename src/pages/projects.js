@@ -6,7 +6,7 @@ import '../styles/styles.css'
 //     #e54
 const headingStyle = {
   textTransform: 'uppercase',
-  fontFamily: 'consolas',
+  fontFamily: 'consolas, monospace',
   color: '#e54',
   letterSpacing: '2px',
 }

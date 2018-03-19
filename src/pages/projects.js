@@ -63,7 +63,7 @@ const ProjectPage = () => (
       <br />
       {/****** Project 4 ******/}
       <a
-        href="https://image.ibb.co/nmAziS/gridbuz_pro.jpg"
+        href="https://codepen.io/ni7in/full/VQpqBB/"
         target="_blank"
         style={linkStyle}
       >
@@ -95,7 +95,7 @@ const ProjectPage = () => (
       <br />
       {/****** Project 6 ******/}
       <a
-        href="https://github.com/ntnbst/switch-ToDo"
+        href="https://codepen.io/ni7in/full/eGRRLL/"
         target="_blank"
         style={linkStyle}
       >
@@ -106,7 +106,7 @@ const ProjectPage = () => (
       <br />
       {/****** Project 7 ******/}
       <a
-        href="https://github.com/ntnbst/Color-Picker-Game"
+        href="https://codepen.io/ni7in/full/WEVEOx/"
         target="_blank"
         style={linkStyle}
       >

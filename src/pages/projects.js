@@ -116,6 +116,18 @@ const ProjectPage = () => (
       guessed by the player. Easy and Hard Difficulty Mode New Color option Can
       be added more difficulty modes
       <p>Built With: HTML 5, CSS 3, Bootstrap 4</p>
+      <br />
+      {/* Project 8 */}
+      <a
+        href="https://codepen.io/ni7in/full/xYwVjz/"
+        target="_blank"
+        style={linkStyle}
+      >
+        <h1 style={headingStyle}>sign up page</h1>
+      </a>
+      A Sign-Up page Template, Responsive - page changes according to the screne
+      size of the device. Implemented media queries.
+      <p>Built with: HTML and CSS</p>
     </h3>
     <Footer />
   </div>

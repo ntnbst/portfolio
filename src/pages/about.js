@@ -19,16 +19,16 @@ const AboutPage = () => (
       <p>
         I'm an enthusiastic self taught Web developer. I love creating beautiful
         Web Applications. Comfortable in developing Web apps with HTML/CSS,
-        ReactJS, JavaScript (ES 6), and node + Express. I started web
-        development in 2017 and developed many mini projects where i Implemented
-        almost everything whatever I learned. And yes I know how to teach myself
-        stuff. I also do web design and development for projects that I find
-        interesting, challenging or exciting.
+        ReactJS, JavaScript (ES 6), and Node + Express. I started web
+        development in 2017 and since then I've been developing mini projects
+        where I Implement almost everything whatever I learned. And yes I know
+        how to teach myself stuff. I also do web design and development for
+        projects that I find interesting, challenging or exciting.
       </p>
       <p>
-        I also enjoy trekking and exploring various places, I love Adventure,
-        Fifa and Call of Duty. I'm inspired by a hot cup of Coffee, excellent
-        EDM, TV seasons and{' '}
+        I love Adventure, specially trekking and exploring various places. Big
+        fan of Fifa and Call of Duty. I'm inspired by a hot cup of Coffee,
+        excellent EDM, TV seasons and{' '}
         <a
           href="https://twitter.com/stolinski"
           target="_blank"

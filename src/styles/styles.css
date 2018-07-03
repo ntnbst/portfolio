@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato: 300, 400, 900');
+ * {
+   font-family: 'Lato'  !important;
+ }
 
 #introStyle {
-  font-family: consolas, monospace;
+  /* font-family: consolas, monospace; */
   margin-top: 150px;
   font-size: 64px;
   font-weight: 300;
@@ -9,7 +12,7 @@
 }
 
 #small-heading {
-  font-family: consolas, monospace;
+  /* font-family: consolas, monospace; */
   font-size: 1.3rem;
   font-weight: 100;
 }
@@ -34,6 +37,10 @@
   cursor: pointer;
 }
 
+#navigation {
+  z-index: 100;
+}
+
 #navigation:hover #logo-name {
   left: 70px;
 }
@@ -45,7 +52,7 @@
   text-transform: uppercase;
   margin-top: 280px;
   text-align: center;
-  font-family: consolas, monospace;
+  /* font-family: consolas, monospace; */
   letter-spacing: 2px;
 }
 
@@ -90,12 +97,12 @@
 .pageStyle > h1 {
   margin: 0 20%;
   line-height: 1.5;
-  font-family: consolas, monospace;
+  /* font-family: consolas, monospace; */
 }
 
 /* Rules for the Page Link */
 #nextLine > a {
-  font-family: consolas, monospace;
+  /* font-family: consolas, monospace; */
   font-size: 18px;
   color: white;
   text-decoration: none;
@@ -136,7 +143,7 @@
 .resume-inside > .comment-head {
   font-size: 0.9rem;
   letter-spacing: 1px;
-  font-family: consolas, monospace;
+  /* font-family: consolas, monospace; */
   color: #8ac;
 }
 
@@ -147,7 +154,7 @@
 .resume-inside > p {
   font-weight: 300;
   font-size: 0.9rem;
-  font-family: consolas, monospace;
+  /* font-family: consolas, monospace; */
 }
 
 .resume-inside > p > span {

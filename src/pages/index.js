@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Footer from '../components/Footer/footer'
 import '../styles/styles.css'
+import Particles from 'react-particles-js'
 
 const videoStyle = {
   // position: 'fixed',
@@ -23,47 +24,129 @@ const videoStyle = {
   objectFit: 'cover',
 }
 
-// const socialLinks = [
-//   { name: 'Twitter', src: 'https://twitter.com/ntnbst' },
-//   { name: 'Medium', src: 'https://medium.com/@ntnbst' },
-//   { name: 'Github', src: 'https://github.com/ntnbst' },
-//   { name: 'Codepen', src: 'https://codepen.io/ni7in/' },
-// ]
-
-// const Footer = () => (
-//   <footer id="find-me">
-//     <h3>where to find me</h3>
-//     {socialLinks.map(link => {
-//       return (
-//         <a href={link.src} target="_blank">
-//           {link.name}
-//         </a>
-//       )
-//     })}
-//   </footer>
-// )
-
 const IndexPage = () => (
   <div>
     <main id="main-desc">
       <h1 id="introStyle">I am Nitin Bisht</h1>
       <h3 id="small-heading">I make excellent, modern websites.</h3>
     </main>
-    <video
-      poster="https://image.ibb.co/eSzrf7/poster.png"
-      preload="true"
-      style={videoStyle}
-      id="background-video"
-      loop
-      autoPlay
-      muted
-    >
-      <source src="https://coverr.co/s3/mp4/Hello-World.mp4" type="video/mp4" />
-      <source src="https://coverr.co/s3/mp4/Hello-World.ogg" type="video/ogg" />
-    </video>
+
+    <Particles
+        params={{
+          "particles": {
+            "number": {
+              "value": 100,
+              "density": {
+                "enable": true,
+                "value_area": 868.0624057955
+              }
+            },
+            "color": {
+              "value": "#ecd018"
+            },
+            "shape": {
+              "type": "circle",
+              "stroke": {
+                "width": 0,
+                "color": "#000000"
+              },
+              "polygon": {
+                "nb_sides": 5
+              }
+            },
+            "opacity": {
+              "value": 0.5,
+              "random": true,
+              "anim": {
+                "enable": false,
+                "speed": 1,
+                "opacity_min": 0.1,
+                "sync": false
+              }
+            },
+            "size": {
+              "value": 3,
+              "random": true,
+              "anim": {
+                "enable": false,
+                "speed": 40,
+                "size_min": 0.1,
+                "sync": false
+              }
+            },
+            "line_linked": {
+              "enable": true,
+              "distance": 150,
+              "color": "#fff",
+              "opacity": 0.4,
+              "width": 1
+            },
+            "move": {
+              "enable": true,
+              "speed": 5,
+              "direction": "none",
+              "random": false,
+              "straight": false,
+              "out_mode": "out",
+              "bounce": false,
+              "attract": {
+                "enable": false,
+                "rotateX": 600,
+                "rotateY": 1200
+              }
+            }
+          },
+          "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+              "onhover": {
+                "enable": false,
+                "mode": "grab"
+              },
+              "onclick": {
+                "enable": true,
+                "mode": "push"
+              },
+              "resize": false
+            },
+            "modes": {
+              "grab": {
+                "distance": 400,
+                "line_linked": {
+                  "opacity": 1
+                }
+              },
+              "bubble": {
+                "distance": 400,
+                "size": 40,
+                "duration": 2,
+                "opacity": 8,
+                "speed": 3
+              },
+              "repulse": {
+                "distance": 200,
+                "duration": 0.4
+              },
+              "push": {
+                "particles_nb": 4
+              },
+              "remove": {
+                "particles_nb": 2
+              }
+            }
+          },
+          "retina_detect": true
+        }}
+        style={{
+        "position": "absolute",
+        "top": 0,
+        "width": "100%",
+        "height": "100%"
+      }}
+        />
     <Footer />
   </div>
 )
 
 export default IndexPage
-export { Footer }
+// export { Footer }

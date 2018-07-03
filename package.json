@@ -8,7 +8,10 @@
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-react-helmet": "^2.0.6",
-    "react-helmet": "^5.2.0"
+    "particles.js": "^2.0.0",
+    "react-helmet": "^5.2.0",
+    "react-particles-js": "^2.2.0",
+    "typed.js": "^2.0.8"
   },
   "keywords": [
     "gatsby"

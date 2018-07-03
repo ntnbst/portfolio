@@ -35,14 +35,14 @@ const IndexPage = () => (
         params={{
           "particles": {
             "number": {
-              "value": 100,
+              "value": 120,
               "density": {
                 "enable": true,
                 "value_area": 868.0624057955
               }
             },
             "color": {
-              "value": "#ecd018"
+              "value": "#fff"
             },
             "shape": {
               "type": "circle",
@@ -141,7 +141,8 @@ const IndexPage = () => (
         "position": "absolute",
         "top": 0,
         "width": "100%",
-        "height": "100%"
+        "height": "100%",
+        "zIndex": "-100"
       }}
         />
     <Footer />

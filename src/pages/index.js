@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Footer from '../components/Footer/footer'
 import '../styles/styles.css'
 import Particles from 'react-particles-js'
+import Typed from 'react-typed';
 
 const videoStyle = {
   // position: 'fixed',
@@ -27,8 +28,10 @@ const videoStyle = {
 const IndexPage = () => (
   <div>
     <main id="main-desc">
-      <h1 id="introStyle">I am Nitin Bisht</h1>
-      <h3 id="small-heading">I make excellent, modern websites.</h3>
+      <h1 id="introStyle">
+        <Typed strings={['I am Nitin Bisht']} typeSpeed={40} />
+      </h1>
+      <h3 id="small-heading"><Typed strings={['I make excellent, modern websites.', 'I make excellent, modern web applications.']} backspeed={100} typeSpeed={30} startDelay={1500}/></h3>
     </main>
 
     <Particles
@@ -142,7 +145,7 @@ const IndexPage = () => (
         "top": 0,
         "width": "100%",
         "height": "100%",
-        "zIndex": "-100"
+        "zIndex": "-1"
       }}
         />
     <Footer />

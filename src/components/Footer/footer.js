@@ -9,17 +9,21 @@ const socialLinks = [
   { name: 'Codepen', src: 'https://codepen.io/ni7in/' },
 ]
 
-const Footer = () => (
-  <footer id="find-me">
-    <h3>where to find me</h3>
-    {socialLinks.map(link => {
+class Footer extends React.Component {
+    render () {
       return (
-        <a href={link.src} target="_blank">
-          {link.name}
-        </a>
-      )
-    })}
-  </footer>
-)
+        <footer id="find-me">
+          <h3>where to find me ...</h3>
+          {socialLinks.map((link, i) => {
+            return (
+              // <button>
+                <a key={i} className="shakebottom" href={link.src} target="_blank"> {link.name} </a>
+              // </button>
+            )
+          })}
+        </footer>
+      );
+    }
+}
 
 export default Footer

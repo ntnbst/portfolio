@@ -1,7 +1,15 @@
-/* @import url('https://fonts.googleapis.com/css?family=Lato: 300, 400, 900'); */
+@import url('https://fonts.googleapis.com/css?family=Lato: 300, 400, 900');
  * {
    font-family: consolas, monaco, monospace  !important;
  }
+
+body {
+  /* margin: 0; */
+  /* background: linear-gradient(160deg, #32067c, #150233) !important; */
+  background: linear-gradient(0deg, #224268 0%, #10243c 100%);
+  /* background: #111; */
+  color: white !important;
+}
 
 #introStyle {
   font-family: consolas, monospace;

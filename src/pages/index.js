@@ -5,6 +5,7 @@ import '../styles/styles.css'
 import Particles from 'react-particles-js'
 import Typed from 'react-typed'
 
+
 const videoStyle = {
   // position: 'fixed',
   // right: 0,

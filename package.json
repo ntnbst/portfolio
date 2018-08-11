@@ -4,9 +4,13 @@
   "version": "1.0.0",
   "author": "Nitin Bisht <nitin.bisht47@gmail.com>",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
+    "@fortawesome/react-fontawesome": "0.1.0-11",
     "gatsby": "^1.9.223",
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-favicon": "^2.1.1",
+    "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-react-helmet": "^2.0.6",
     "particles.js": "^2.0.0",
     "react-helmet": "^5.2.0",
@@ -27,5 +31,13 @@
   "devDependencies": {
     "gh-pages": "^1.1.0",
     "prettier": "^1.11.1"
+  },
+  "guppy": {
+    "id": "portfolio",
+    "name": "portfolio",
+    "type": "gatsby",
+    "color": "#AA00FF",
+    "icon": null,
+    "createdAt": 1532973321477
   }
 }

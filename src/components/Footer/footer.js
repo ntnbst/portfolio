@@ -17,6 +17,7 @@ class Footer extends React.Component {
           {socialLinks.map((link, i) => {
             return (
               // <button>
+                // <FontAwesomeIcon icon="faCoffee" />
                 <a key={i} className="shakebottom" href={link.src} target="_blank"> {link.name} </a>
               // </button>
             )

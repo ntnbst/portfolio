@@ -8,6 +8,10 @@
    font-family: consolas, monaco, monospace  !important;
  }
 
+ ::-webkit-scrollbar {
+     display: none;
+ }
+
 body {
   background: linear-gradient(0deg, #224268 0%, #10243c 100%);
   color: white !important;
